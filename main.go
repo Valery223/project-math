@@ -14,7 +14,7 @@ type Server struct {
 }
 
 func NewServer(rtp float64) *Server {
-	multiplier := math.Sqrt(2*999*rtp + 1)
+	multiplier := math.Sqrt(2*9999*rtp + 1)
 	return &Server{Multiplier: multiplier}
 }
 
